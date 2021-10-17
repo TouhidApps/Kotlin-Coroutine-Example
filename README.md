@@ -12,43 +12,43 @@ https://www.youtube.com/watch?v=C38lG2wraoo&list=PLlxmoA0rQ-Lzyprk1wxs4CT15hOqvW
 ### Key Items:
 
 
-runBlocking{ }
+    runBlocking{ }
 
 
-suspend
+    suspend
 
 
-GlobalScope.launch { }
+    GlobalScope.launch { }
 
 
-coroutineScope { }
+    coroutineScope { }
 
 
-launch{} live until activity is live (local scope)
+    launch{} live until activity is live (local scope)
 
 
-job.cancelAndJoin()
+    job.cancelAndJoin()
 
 
-async { }
+    async { }
 
 
-await()
+    await()
 
 
-withTimeout(--) { }
+    withTimeout(--) { }
 
 
-withTimeoutOrNull(--) { }
+    withTimeoutOrNull(--) { }
 
 
-isActive
+    isActive
 
 
-delay(--)
+    delay(--)
 
 
-async(start = CoroutineStart.LAZY) { mySuspendFunction() }
+    async(start = CoroutineStart.LAZY) { mySuspendFunction() }
 
 
 ### Dispatchers:
